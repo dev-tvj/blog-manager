@@ -1,0 +1,14 @@
+name: Java Spring Boot Development
+dockerComposeFile: docker-compose.yml
+service: app
+workspaceFolder: /workspace
+settings:
+  terminal.integrated.shell.linux: /bin/bash
+extensions:
+  - vscjava.vscode-java-pack
+  - pivotal.vscode-spring-boot
+  - mongodb.mongodb-vscode
+  - ms-azuretools.vscode-docker
+  - PKief.material-icon-theme
+postCreateCommand: mvn clean install
+remoteUser: root
