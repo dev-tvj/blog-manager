@@ -1,0 +1,15 @@
+{
+    "java.project.sourcePaths": [
+        "src/main/java/app",
+        "src/main/java/com/app"
+    ],
+    "java.project.referencedLibraries": [],
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/usr/local/openjdk-17/",
+            "default": true
+        }
+    ]
+}
