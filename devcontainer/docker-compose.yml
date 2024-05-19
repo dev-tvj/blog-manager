@@ -5,7 +5,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - .:/workspace
+      - ..:/workspace
     ports:
       - 8080:8080
     command: /bin/bash -c "while sleep 1000; do :; done"
